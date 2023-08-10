@@ -57,7 +57,7 @@ const App = () => {
     const [score, setScore] = useState(0);
     const [showScore, setShowScore] = useState(false);
     const [showQuiz, setShowQuiz] = useState(false);
-    const [, setShowStart] = useState(false);
+    const [] = useState(false);
     const [, setQuestionsCorrect] = useState(0);
 
     
